@@ -41,7 +41,7 @@ public void handle_ChargeSucceeded(StripeCharge charge, Boolean allowDelayedProc
 ```
 
 Note that delayed processing is currently only implemented for the `charge.succeeded` webhook, but extending the concept to other webhooks (or making it generic) is not difficult.
-<a href="https://githubsfdeploy.herokuapp.com?owner=&repo=">
+<a href="https://githubsfdeploy.herokuapp.com?owner=justinawhite1980&repo=stripeforce">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
